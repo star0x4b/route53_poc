@@ -1,13 +1,5 @@
 variable "name" {}
-variable "ami" {}
 variable "key_name" {}
-variable "vpc_security_group_ids" {
-  type = "list"
-}
-variable "subnet_ids" {
-  type = "list"
-}
-variable "vpc_id" {}
 variable "region" {}
 
 provider "aws" {
